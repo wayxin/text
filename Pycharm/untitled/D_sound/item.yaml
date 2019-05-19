@@ -1,0 +1,40 @@
+---
+# 三方登录
+three:
+  wx_id: com.qk.butterfly:id/v_login_wx  # 微信
+  wb_id: com.qk.butterfly:id/v_login_wb  # 微博
+  qq_id: com.qk.butterfly:id/v_login_qq  # qq
+  pd_id: com.qk.butterfly:id/v_login_pwd  # 密码
+
+# 公共元素
+ut:
+  TextView_class: android.widget.TextView  # 三方登录文本
+  t_id: com.qk.butterfly:id/v_force_no  # 升级弹出框
+  RelativeLayout_class: android.widget.RelativeLayout  # 相对布局
+
+cancel_id: com.qk.butterfly:id/tv_cancel  # 升级弹出框取消
+update_id: com.qk.butterfly:id/tv_install  # 升级弹出框升级
+
+
+# 账号
+u_id: com.qk.butterfly:id/et_login_phone  # 账号输入框
+c_id: com.qk.butterfly:id/tv_get_code   # 获取验证码
+ic_id: com.qk.butterfly:id/et_login_code  # 验证码输入框
+login_id: com.qk.butterfly:id/tv_to_login  # 登录按钮
+p_id: com.qk.butterfly:id/et_login_pwd  # 密码登录
+
+# 底部导航
+nav_id: android:id/tabs  # 底部导航条
+
+# 我的页面
+setting_id: com.qk.butterfly:id/v_me_setting  # 我的页面设置按钮
+out_id: com.qk.butterfly:id/v_me_grade  # 退出按钮
+
+# 退出弹出框，确认按钮
+sure_id: com.qk.butterfly:id/tv_ok  # 确认出按钮
+
+
+
+
+
+
